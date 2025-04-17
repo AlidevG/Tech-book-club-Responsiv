@@ -18,6 +18,9 @@
   align-items: center;
   margin-bottom: 6.6rem;
 }
+.hero__btn{
+  max-width: 380px;
+}
 
 .hero__text__content {
   padding-top: 5.75rem;
@@ -99,6 +102,8 @@
     margin-right: 0;
   }
   .hero__text__content {
+    width: 100%;
+    max-width: 100%;
     margin-bottom: 6.4rem;
   }
 }

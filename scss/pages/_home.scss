@@ -100,18 +100,21 @@
 }
 
 .club__text__contant {
-  margin-right: 8rem;
 }
 .club__title {
   font-family: "Martian Mono";
   font-weight: 600;
-  font-size: 50px;
+  font-size: 5rem;
   line-height: 130%;
   letter-spacing: -2px;
   margin-bottom: 2.4rem;
-  background-image: url(../../images/pattern-circle.png);
-  background-repeat: no-repeat;
-  background-position: bottom left 142px;
+
+  span {
+    background-image: url(../../images/pattern-circle.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+  }
 }
 
 .club__desc {
@@ -135,35 +138,39 @@
   .club {
     margin-bottom: 8rem;
   }
-  .club__container{
+  .club__container {
     flex-direction: column;
-    background-position: bottom 51px right 54px;
+    background-position: bottom left;
   }
-  .club__desc{
+  .club__desc {
     margin-bottom: 4rem;
   }
-  .club__text__contant{
-
+  .club__text__contant {
   }
-  .club__image{
+  .club__title {
+    width: 100%;
+  }
+  .club__image {
     width: 704px;
     height: 653.71px;
   }
 }
 @media screen and (max-width: 375px) {
-    .club {
-        margin-bottom: 6.4rem;
-      }
+  .club {
+    margin-bottom: 6.4rem;
+  }
+  .club__container {
+    background-position: bottom right -156px;
+  }
 
-     .club__title{
-        font-size: 3.4rem;
-     }
-     .club__text__contant{
-        max-width: 100%;
-     }
-     .club__image{
-        width: 343px;
-        height: 318.5px;
-     }
-     
+  .club__title {
+    font-size: 3.4rem;
+   
+  }
+  .club__text__contant {
+  }
+  .club__image {
+    width: 343px;
+    height: 318.5px;
+  }
 }
